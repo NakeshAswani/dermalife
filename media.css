@@ -1,0 +1,126 @@
+@media only screen and (min-width: 200px) and (max-width: 575px){
+    .mobilefixed{
+        display: flex;
+    }
+    .fixedlogos{
+        display: none;
+    }
+    .navbar{
+        background-color: white;
+    }
+    .navbarinner{
+        padding: 10px 0px 10px 5px;
+    }
+    .navbarinner ul{
+        display: none;
+    }
+    .navbarinner img{
+        width: 60%;
+    }
+    .navbarinner>i{
+        display: block;
+        font-size: 30px;
+        margin-right: 10px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    .bannerinner{
+        padding: 50px 15px;
+    }
+    .bannerinner h1{
+        font-size: 32px;
+    }
+    .bannerinner h5{
+        width: 100%;
+        font-size: 15px;
+    }
+    .banimg-form{
+        flex-direction: column;
+    }
+    .banimg-form img{
+        width: 100%;
+    }
+    .banimg-form form{
+        width: calc(100% - 40px);
+    }
+    .section2inner{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+        padding: 50px 15px;
+    }
+    .doctorinner{
+        flex-direction: column;
+        padding: 50px 15px 30px 15px;
+    }
+    .dileft h2{
+        font-size: 25px;
+    }
+    .dileft p{
+        font-size: 14px;
+    }
+    .galleryinner{
+        padding: 30px 15px 50px 15px;
+    }
+    .galmenu ul{
+        justify-content: center;
+    }
+    .galimgs{
+        flex-direction: column;
+    }
+    .reviewinner{
+        padding: 50px 15px;
+    }
+    .reviewBlocks{
+        flex-direction: column;
+    }
+    .reviewBlocks .rB:nth-child(2), .reviewBlocks .rB:last-child{
+        display: none;
+    }
+    .servicesinner{
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+    .sBhead img{
+        width: 45px;
+        height: 45px;
+    }
+    .serviceBlock p{
+        font-size: 14.5px;
+    }
+    .successinner{
+        flex-direction: column;
+        padding: 0px 15px;
+    }
+    .successinner iframe{
+        height: 500px;
+    }
+    .caseinner{
+        flex-direction: column;
+        padding: 40px 15px;
+    }
+    .caseinner iframe:nth-child(2), .caseinner iframe:last-child{
+        display: none;
+    }
+    .whyinner{
+        flex-direction: column;
+        padding: 0px 15px;
+    }
+    .whyinner ul{
+        padding-left: 15px;
+    }
+    .findinner{
+        flex-direction: column;
+    }
+    .appointmentinner form{
+        flex-direction: column;
+    }
+    .appointmentinner form button{
+        padding: 12px 22px;
+    }
+    .footerinner img{
+        width: 65%;
+    }
+    .footerinner h4{
+        text-align: center;
+    }
+}
